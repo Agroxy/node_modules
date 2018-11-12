@@ -1,0 +1,61 @@
+{
+  "_from": "chartjs-plugin-watermark@^1.0.3",
+  "_id": "chartjs-plugin-watermark@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-tidPOjk81KOYXJiPajF4GIz8Slk=",
+  "_location": "/chartjs-plugin-watermark",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "chartjs-plugin-watermark@^1.0.3",
+    "name": "chartjs-plugin-watermark",
+    "escapedName": "chartjs-plugin-watermark",
+    "rawSpec": "^1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/chartjs-plugin-watermark/-/chartjs-plugin-watermark-1.0.3.tgz",
+  "_shasum": "b6274f3a393cd4a3985c988f6a3178188cfc4a59",
+  "_spec": "chartjs-plugin-watermark@^1.0.3",
+  "_where": "/home/sandruse/agroxy-yii",
+  "author": {
+    "name": "AlbinoDrought"
+  },
+  "bugs": {
+    "url": "https://github.com/AlbinoDrought/chartjs-plugin-watermark/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chart.js": "^2.4.0"
+  },
+  "deprecated": false,
+  "description": "A simple watermark plugin for Chart.js",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^2.0.0",
+    "merge-stream": "^1.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.8.0"
+  },
+  "homepage": "https://github.com/AlbinoDrought/chartjs-plugin-watermark#readme",
+  "license": "MIT",
+  "main": "src/chart.plugin.watermark.js",
+  "name": "chartjs-plugin-watermark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbinoDrought/chartjs-plugin-watermark.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}

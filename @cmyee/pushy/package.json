@@ -1,0 +1,51 @@
+{
+  "_from": "@cmyee/pushy@^1.1.2",
+  "_id": "@cmyee/pushy@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-PROwyDZNlO19wEvJEayVqB+f8bFaW4dlkjBuk0QeDUlSBrEmN2yxt/VrQ8pQpZ56NpX7CNcV+akZ+jc5q/4kbg==",
+  "_location": "/@cmyee/pushy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@cmyee/pushy@^1.1.2",
+    "name": "@cmyee/pushy",
+    "escapedName": "@cmyee%2fpushy",
+    "scope": "@cmyee",
+    "rawSpec": "^1.1.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@cmyee/pushy/-/pushy-1.1.2.tgz",
+  "_shasum": "7f115e04406e783aba61d65ce4067f48805bff19",
+  "_spec": "@cmyee/pushy@^1.1.2",
+  "_where": "/home/sandruse/agroxy-yii",
+  "author": {
+    "name": "Chris Yee",
+    "url": "https://chrisyee.ca/"
+  },
+  "bugs": {
+    "url": "https://github.com/christophery/pushy/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-sass": "~0.9.2",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "homepage": "https://chrisyee.ca/pushy/",
+  "license": "MIT",
+  "name": "@cmyee/pushy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophery/pushy.git"
+  },
+  "version": "1.1.2"
+}

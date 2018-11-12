@@ -1,0 +1,85 @@
+{
+  "_from": "less-loader@^3.0.0",
+  "_id": "less-loader@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-GZ9/Snn/ihlatHZJ1xxtcQnaMrk=",
+  "_location": "/less-loader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "less-loader@^3.0.0",
+    "name": "less-loader",
+    "escapedName": "less-loader",
+    "rawSpec": "^3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/less-loader/-/less-loader-3.0.0.tgz",
+  "_shasum": "199f7f4a79ff8a195ab47649d71c6d7109da32b9",
+  "_spec": "less-loader@^3.0.0",
+  "_where": "/home/sandruse/agroxy-yii",
+  "author": {
+    "name": "Johannes Ewald @jhnns"
+  },
+  "bugs": {
+    "url": "https://github.com/webpack-contrib/less-loader/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "clone-deep": "^0.2.4",
+    "loader-utils": "^1.0.2"
+  },
+  "deprecated": false,
+  "description": "Less loader for webpack. Compiles Less to CSS.",
+  "devDependencies": {
+    "css-loader": "^0.26.2",
+    "eslint": "^3.17.1",
+    "eslint-config-peerigon": "^9.0.0",
+    "eslint-plugin-jsdoc": "^2.4.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "less": "^2.6.1",
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2",
+    "raw-loader": "^0.5.1",
+    "should": "^11.2.0",
+    "webpack": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "files": [
+    "lib",
+    "README",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/webpack-contrib/less-loader#readme",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "lib/loader.js",
+  "name": "less-loader",
+  "peerDependencies": {
+    "less": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webpack-contrib/less-loader.git"
+  },
+  "scripts": {
+    "appveyor:test": "npm test",
+    "create-spec": "node test/tools/runCreateSpec.js",
+    "lint": "eslint lib test",
+    "posttest": "npm run lint",
+    "pretest": "npm run create-spec",
+    "test": "nyc --all mocha -R spec -t 10000",
+    "travis:test": "npm test"
+  },
+  "version": "3.0.0"
+}
